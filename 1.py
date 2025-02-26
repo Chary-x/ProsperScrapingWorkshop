@@ -1,9 +1,6 @@
 import requests 
 from bs4 import BeautifulSoup
 
-
-
-
 """
 task 1 : interacting with static web page elements (wikipedia)
 
