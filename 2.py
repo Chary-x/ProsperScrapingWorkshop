@@ -19,3 +19,5 @@ task 2 : interacting with static web page elements (book scraping site)
 ]
 
 """
+
+url = "https://books.toscrape.com/"

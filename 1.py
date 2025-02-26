@@ -8,7 +8,13 @@ task 1 : interacting with static web page elements (wikipedia)
 2. parse the HTML content using BeautifulSoup
 3. find all paragraph elements
 
+take a look at soup_template if you're stuck!
+
 """
 
 url = "https://en.wikipedia.org"
 
+response = requests.get(url)
+print(response.text)
+soup = BeautifulSoup(response.text, "html.parser")
+print(soup.find("p").text)
