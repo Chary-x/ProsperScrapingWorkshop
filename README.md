@@ -34,11 +34,6 @@ python3 -m venv myenv
 ```
 
 This will create a virtual environment named `myenv`.
-
-# Slides
-
-Please refer to the .pptx file!
-
 ---
 
 ## Step 3: Activate the Virtual Environment
@@ -115,4 +110,14 @@ rmdir /s myenv  # Windows (Command Prompt)
   ```
 
 ---
+
+# Slides
+
+- Please refer to the .pptx file!
+
+--- 
+
+# Solutions
+
+- Refer to the `sol` folder
 
