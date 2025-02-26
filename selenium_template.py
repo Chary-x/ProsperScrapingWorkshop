@@ -17,7 +17,12 @@ service = FirefoxService(GeckoDriverManager().install())
 driver = webdriver.Firefox(service=service)
 wait = webdriver.wait(driver, 10)
 
+driver.get("https://google.com")
+
 element_im_waiting_for = wait.until(EC.presence_of_element_located(ENTER_LOCATOR_TUPLE))
+
+
+
 
 # for other browsers, the syntax follows but for the respective manager and service.
 # if you have a driver locally installed, you can reference it's path in FirefoxService(PATH_HERE)
