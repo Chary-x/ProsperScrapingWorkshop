@@ -35,6 +35,10 @@ python3 -m venv myenv
 
 This will create a virtual environment named `myenv`.
 
+# Slides
+
+Please refer to the .pptx file!
+
 ---
 
 ## Step 3: Activate the Virtual Environment
