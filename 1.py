@@ -13,3 +13,5 @@ task 1 : interacting with static web page elements (wikipedia)
 
 """
 
+url = "https://en.wikipedia.org"
+
