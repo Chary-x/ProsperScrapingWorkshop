@@ -1,3 +1,4 @@
 beautifulsoup4==4.13.3
 requests==2.32.3 
-pprint==3.13.2
+selenium==4.27.1
+webdriver-manager==4.0.2
